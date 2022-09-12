@@ -12,6 +12,6 @@ Feel free to report bugs, fork and send pull-requests. You can also drop me a li
 
 Install
 =======
-git clone https://github.com/ioana-stancioiu-ptt/nimbostratus
-cd nimbostratus
-pip install requirements.txt
+git clone https://github.com/ioana-stancioiu-ptt/nimbostratus  
+cd nimbostratus  
+pip install requirements.txt  
