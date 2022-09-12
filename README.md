@@ -10,3 +10,8 @@ For more information visit [the project page](http://andresriancho.github.io/nim
 Feel free to report bugs, fork and send pull-requests. You can also drop me a line at
 [@w3af](https://twitter.com/w3af).
 
+Install
+=======
+git clone https://github.com/ioana-stancioiu-ptt/nimbostratus
+cd nimbostratus
+pip install requirements.txt
