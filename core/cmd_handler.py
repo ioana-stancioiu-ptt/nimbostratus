@@ -20,7 +20,7 @@ def parse_args():
     subparsers = parser.add_subparsers(help='Available subcommands',
                                        dest="subparser_name")
     
-    for subcommand, module_name in SUBCOMMANDS.iteritems():
+    for subcommand, module_name in SUBCOMMANDS.items():
         _temp = __import__(module_name, globals(), locals(), ['cmd_arguments'], 0)
         _temp.cmd_arguments(subparsers)
     
